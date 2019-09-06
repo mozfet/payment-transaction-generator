@@ -3,4 +3,8 @@ function generate() {
   return []
 }
 
-module.exports = generate()
+const api = {
+  generate
+}
+
+module.exports = api
